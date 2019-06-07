@@ -1,11 +1,13 @@
 import PropTypes from "prop-types"
 import React from "react"
 
+import Container from "./container"
+
 const Main = ({ children }) => (
   <main>
-    <div className="container">
+    <Container>
       {children}
-    </div>
+    </Container>
   </main>
 )
 
