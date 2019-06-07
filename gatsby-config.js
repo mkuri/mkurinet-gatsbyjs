@@ -51,5 +51,6 @@ module.exports = {
         accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
       },
     },
+    `gatsby-plugin-styled-components`
   ],
 }
