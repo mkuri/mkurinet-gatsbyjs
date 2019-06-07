@@ -52,7 +52,7 @@ const Logo = styled.h1`
 
 const Nav = styled.nav`
   li {
-    dispaly: inline-block;
+    display: inline-block;
 
     a {
       color: #0f0f0f;
