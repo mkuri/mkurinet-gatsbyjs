@@ -8,7 +8,7 @@ import { faTag } from '@fortawesome/free-solid-svg-icons'
 
 const TagsSpan = ({ tags }) => (
   <Span>
-    <FontAwesomeIcon icon={faTag} />
+    <FontAwesomeIcon icon={faTag} width="10" />
     <ul>
     {tags.map(({ name }) => (
       <li><Link to={`/tag/${name}`}>#{name}</Link></li>
