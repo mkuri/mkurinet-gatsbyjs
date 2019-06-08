@@ -45,41 +45,6 @@ main {
     }
   }
 
-  .posts {
-    ul {
-      padding-inline-start: 0.5rem;
-      list-style: none;
-    }
-
-    li {
-      margin-top: 0.5rem;
-
-      li {
-        margin-top: 0;
-      }
-    }
-  }
-
-  .date {
-    font-size: 0.7rem;
-  }
-
-  .tags {
-    font-size: 0.7rem;
-    margin-left: 0.5rem;
-    
-    ul {
-      display: inline-block;
-      padding-inline-start: 0;
-      margin-top: 0;
-    }
-
-    li {
-      display: inline-block;
-      margin-top: 0;
-    }
-  }
-
   .content {
     margin-top: 1.5rem;
   }
