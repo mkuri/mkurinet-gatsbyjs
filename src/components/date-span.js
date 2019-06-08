@@ -7,7 +7,7 @@ import { faClock } from '@fortawesome/free-regular-svg-icons'
 
 const DateSpan = ({ date }) => (
   <Span>
-    <FontAwesomeIcon icon={faClock} width="10" />
+    <FontAwesomeIcon icon={faClock} width="11" />
     <time>{date.split('T')[0]}</time>
   </Span>
 )
